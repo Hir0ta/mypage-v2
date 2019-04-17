@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { hungarian } from '../hungarian';
 
 @Component({
   selector: 'navbar',
