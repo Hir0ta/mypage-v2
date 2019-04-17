@@ -36,11 +36,15 @@ export class GuessTheNumberComponent implements OnInit {
 		if (this.userGuess > this.randomNumber)
 		{
 			this.lowOrHigh = "Too high";
+			this.lastGuesses.push(this.userGuess);
+			this.userGuess = null;
 			this.guessCount++;
 		}
 		else if (this.userGuess < this.randomNumber)
 		{
 			this.lowOrHigh = "Too low";
+			this.lastGuesses.push(this.userGuess);
+			this.userGuess = null;
 			this.guessCount++;
 		}
 		else
@@ -63,8 +67,6 @@ export class GuessTheNumberComponent implements OnInit {
 		return;
 	}
 
-
-	this.lastGuesses.push(this.userGuess);
 	//console.log(this.lastGuesses);
 	//console.log(this.lowOrHigh);
 
