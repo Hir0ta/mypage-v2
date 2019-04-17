@@ -3,6 +3,7 @@ import { NgModule } from '@angular/core';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 
 import { AppRoutingModule } from './app-routing.module';
+import { FormsModule } from '@angular/forms';
 import { AppComponent } from './app.component';
 import { NavBarComponent } from './nav-bar/nav-bar.component';
 import { GuessTheNumberComponent } from './guess-the-number/guess-the-number.component';
@@ -28,6 +29,7 @@ import { ColorfulComponent } from './colorful/colorful.component';
   imports: [
     BrowserModule,
 	AppRoutingModule,
+	FormsModule,
 	NgbModule.forRoot()
   ],
   providers: [],
