@@ -27,7 +27,7 @@ export class GuessTheNumberComponent implements OnInit {
   }
   checkGuess()
   {
-	console.log(this.randomNumber);
+	//console.log(this.randomNumber);
 
 	console.log(this.userGuess);
 	if (this.guessCount < 10)
@@ -55,7 +55,6 @@ export class GuessTheNumberComponent implements OnInit {
 			this.reset = true;
 			return;
 		}
-		console.log(this.reset);
 	}
 	else if (this.guessCount == 10)
 	{
