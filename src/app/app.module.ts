@@ -13,6 +13,7 @@ import { ColorClockComponent } from './color-clock/color-clock.component';
 import { BroodCombComponent } from './brood-comb/brood-comb.component';
 import { HyperspaceComponent } from './hyperspace/hyperspace.component';
 import { ColorfulComponent } from './colorful/colorful.component';
+import { CandyComponent } from './candy/candy.component';
 
 @NgModule({
   declarations: [
@@ -24,7 +25,8 @@ import { ColorfulComponent } from './colorful/colorful.component';
     ColorClockComponent,
     BroodCombComponent,
     HyperspaceComponent,
-    ColorfulComponent
+    ColorfulComponent,
+    CandyComponent
   ],
   imports: [
     BrowserModule,

@@ -7,6 +7,7 @@ import { ColorClockComponent } from './color-clock/color-clock.component';
 import { BroodCombComponent } from './brood-comb/brood-comb.component';
 import { HyperspaceComponent } from './hyperspace/hyperspace.component';
 import { ColorfulComponent } from './colorful/colorful.component'; 
+import { CandyComponent } from './candy/candy.component';
 
 const routes: Routes = [
 	{ path: 'intro', component: IntroComponent},
@@ -16,10 +17,14 @@ const routes: Routes = [
 	{ path: 'broodcomb', component: BroodCombComponent},
 	{ path: 'hyperspace', component: HyperspaceComponent},
 	{ path: 'colorful-rectange', component: ColorfulComponent},
+	{ path: 'candy', component: CandyComponent}
 ];
 
 @NgModule({
-  imports: [RouterModule.forRoot(routes)],
-  exports: [RouterModule]
+	imports: 
+	[
+		RouterModule.forRoot(routes)
+	],
+	exports: [RouterModule]
 })
 export class AppRoutingModule { }
