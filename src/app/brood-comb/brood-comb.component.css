@@ -5,3 +5,11 @@
 	margin-right: 5vw;
 	margin-top: 2%;
 }
+
+#myCanvas
+{
+	width: 600px;
+	height: 300px;
+	border: 1px solid black;
+	margin-top: 50px;
+}
