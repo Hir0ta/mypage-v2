@@ -36,12 +36,12 @@ export class ColorClockComponent implements OnInit {
 		}
 
 		this.clockFace = (colorHours + ':' + colorMinutes+ ':' + colorSeconds);
-		console.log(this.clockFace);
+		//console.log(this.clockFace);
 		let hexColor= '#' + colorHours + colorMinutes + colorSeconds;
 
 		//document.getElementById('clock').innerHTML = clockFace;
 
-		setTimeout(function() {this.colorClock();},1000);
+		setTimeout(()=>{this.colorClock();},1000);
 		document.body.style.background = hexColor;
 	}
 
