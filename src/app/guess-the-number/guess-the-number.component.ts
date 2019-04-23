@@ -29,7 +29,7 @@ export class GuessTheNumberComponent implements OnInit {
   {
 	//console.log(this.randomNumber);
 
-	console.log(this.userGuess);
+	//console.log(this.userGuess);
 	if (this.guessCount < 10)
 	{
 		//console.log(this.guessCount);
