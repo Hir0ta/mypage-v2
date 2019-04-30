@@ -28,7 +28,7 @@ export class BroodCombComponent
 
 	broodComb(size)
 	{
-		var canvas = document.getElementById('myCanvas');
+		var canvas:any = document.getElementById('myCanvas');
 		var context = canvas.getContext('2d');
 		var color = "yellow";
 		var space= 3;
