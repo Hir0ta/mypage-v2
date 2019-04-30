@@ -1,5 +1,5 @@
-<div class="contentBody text-danger text-center">
-	<input type="range" min="1" max="100" value="1" class="slider" id="resizer" [(ngModel)]="setSize">
-	<p>{{sizeVar}}</p>
-	<canvas id='myCanvas'></canvas>
+<div class="contentBody text-danger text-center bg-dark">
+	<input type="range" min="1" max="100" value="0" class="slider" id="resizer" [ngModel]="setSize" (ngModelChange)="change($event)">
+	<p>{{setSize}}</p>
+	<canvas id='myCanvas' width="500" height="500"></canvas>
 </div>

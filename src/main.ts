@@ -15,20 +15,12 @@ platformBrowserDynamic().bootstrapModule(AppModule)
   .catch(err => console.error(err));
 
 
-function createBroodComb ()
-{
-	const canvas = <HTMLCanvasElement>document.getElementById('myCanvas');
-	const broodComb = new BroodCombComponent(canvas);
-	broodComb.draw();
-}
 
-createBroodComb();
-
-function createCandyText()
+/*function createCandyText()
 {
 	const canvas = <HTMLCanvasElement>document.getElementById('candy-text');
 	const candy = new CandyComponent(canvas);
 	candy.draw();
 }
 
-createCandyText();
+createCandyText();*/

@@ -1,4 +1,5 @@
 import { BrowserModule } from '@angular/platform-browser';
+
 import { NgModule } from '@angular/core';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 
@@ -13,7 +14,7 @@ import { ColorClockComponent } from './color-clock/color-clock.component';
 import { BroodCombComponent } from './brood-comb/brood-comb.component';
 import { HyperspaceComponent } from './hyperspace/hyperspace.component';
 import { ColorfulComponent } from './colorful/colorful.component';
-import { CandyComponent } from './candy/candy.component';
+//import { CandyComponent } from './candy/candy.component';
 
 @NgModule({
   declarations: [
@@ -26,7 +27,7 @@ import { CandyComponent } from './candy/candy.component';
     BroodCombComponent,
     HyperspaceComponent,
     ColorfulComponent,
-    CandyComponent
+    //CandyComponent
   ],
   imports: [
     BrowserModule,
